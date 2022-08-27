@@ -1,0 +1,16 @@
+
+.content {
+    width: 800px;
+    .main {
+        background: green;
+        padding: (100px / 2);
+        margin: 100px / 2;
+        background-color: red;
+        filter: blur(100px);
+        // 响应式布局, 左侧一个菜单栏 宽度自适应根据屏幕 30%
+        // 400px ---> 父容器
+        // 120px  200 * 0.3 -> 60  100px 240px 200px; preset-env会帮助我们做语法降级  vite内部会有一个主流浏览器的支持表
+        width: clamp(100px, 30%, 200px);
+        user-select: none; // 他在其他浏览器上不支持
+    }
+}

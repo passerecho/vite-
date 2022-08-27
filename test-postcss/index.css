@@ -1,0 +1,9 @@
+:root {
+    --globalColor: lightblue;
+}
+
+div {
+    background-color: var(--globalColor);
+    width: clamp(200px, 50%, 200px);
+    filter: blur(30px);
+}

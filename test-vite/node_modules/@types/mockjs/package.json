@@ -1,0 +1,29 @@
+{
+    "name": "@types/mockjs",
+    "version": "1.0.6",
+    "description": "TypeScript definitions for mockjs",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/mockjs",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "lavyun",
+            "url": "httpS://github.com/lavyun"
+        },
+        {
+            "name": "ChenKS12138",
+            "url": "https://github.com/ChenKS12138",
+            "githubUsername": "ChenKS12138"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/mockjs"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "669e6e13a2bc74d5f110b0fbfaf7b173411e8ad14cfb6c588fd024f4943970cb",
+    "typeScriptVersion": "3.8"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "vite-dev-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
+}
